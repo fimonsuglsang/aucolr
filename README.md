@@ -18,7 +18,7 @@ This takes a character vector containing lower-case names of the AU colors, and 
 By default, this function supplies a single code for AU blue.
 
 
-The three palette funtions (pallet, darkpallet, longpallete) all return a character vector of the corresponding colors. 
+The three palette funtions (palet, paletdark, paletlong) all return a character vector of the corresponding colors. 
 The order of the colors correspond to the order on the web page, for a custom order use *picker*.
 
 ## Data frames
