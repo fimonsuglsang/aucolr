@@ -101,37 +101,37 @@ colrlong <- data.frame(
 )
 
 
-#' Pallete
+#' Palette
 #'
-#' Pallette of all light colors, printet as character vector. Does not take any arguments.
+#' Palette of all light colors, printet as character vector. Does not take any arguments.
 #'
 #' @return A vector of light color hex codes.
 #' @export
-pallet <- function() {
+palet <- function() {
   as.character(
     colr[[2]]
   )
 }
 
-#' Pallete dark
+#' Palete dark
 #'
-#' Pallette of all dark colors, printet as character vector. Does not take any arguments.
+#' Palette of all dark colors, printet as character vector. Does not take any arguments.
 #'
 #' @return A vector of dark color hex codes.
 #' @export
-palletdark <- function() { #pallette of all dark colors, printet as character vector
+paletdark <- function() { #palette of all dark colors, printet as character vector
   as.character(
     colr[[3]]
   )
 }
 
-#' Pallete long
+#' Palete long
 #'
-#' Pallette of all colors, printet as character vector. Does not take any arguments.
+#' palette of all colors, printet as character vector. Does not take any arguments.
 #'
 #' @return A vector of all color hex codes.
 #' @export
-palletlong <- function() { #pallette of all colors, printet as character vector
+paletlong <- function() { #palette of all colors, printet as character vector
   as.character(
     colrlong[[2]]
   )
