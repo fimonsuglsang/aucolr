@@ -7,8 +7,8 @@
 palet()
 }
 \value{
-A vector of light color hex codes.
+
 }
 \description{
-Palette of all light colors, printet as character vector. Does not take any arguments.
+Palette of all AU standard colors, printet as character vector. Does not take any arguments.
 }

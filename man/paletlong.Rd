@@ -10,5 +10,5 @@ paletlong()
 A vector of all color hex codes.
 }
 \description{
-palette of all colors, printet as character vector. Does not take any arguments.
+Palette of all AU colors, printet as character vector. Does not take any arguments.
 }

@@ -7,7 +7,7 @@
 picker(x = c("blue"))
 }
 \arguments{
-\item{x}{A vector of color names as specified on the AU colors webpage. Dark versions a names "dark [color]". Only takes lower case names.}
+\item{x}{A vector of color names as specified on the AU colors webpage. Dark versions a names "dark [color]".}
 }
 \value{
 A vector of hex codes for the specified colors
@@ -15,5 +15,5 @@ A vector of hex codes for the specified colors
 \description{
 Color picker, takes a vector of colornames and returns a hex codes.
 Defaults to AU blue.
-All color names need to be lower case
+Not case sensitive.
 }

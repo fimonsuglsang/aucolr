@@ -10,5 +10,5 @@ paletdark()
 A vector of dark color hex codes.
 }
 \description{
-Palette of all dark colors, printet as character vector. Does not take any arguments.
+Palette of all AU dark colors, printet as character vector. Does not take any arguments.
 }

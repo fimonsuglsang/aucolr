@@ -103,9 +103,9 @@ colrlong <- data.frame(
 
 #' AU standard color palette
 #'
-#' Palette of all light colors, printet as character vector. Does not take any arguments.
+#' Palette of all AU standard colors, printet as character vector. Does not take any arguments.
 #'
-#' @return A vector of light color hex codes.
+#' @return
 #' @export
 palet <- function() {
   as.character(
@@ -115,7 +115,7 @@ palet <- function() {
 
 #' AU dark color palette
 #'
-#' Palette of all dark colors, printet as character vector. Does not take any arguments.
+#' Palette of all AU dark colors, printet as character vector. Does not take any arguments.
 #'
 #' @return A vector of dark color hex codes.
 #' @export
@@ -127,7 +127,7 @@ paletdark <- function() {
 
 #' AU color palette, standard followed by dark
 #'
-#' palette of all colors, printet as character vector. Does not take any arguments.
+#' Palette of all AU colors, printet as character vector. Does not take any arguments.
 #'
 #' @return A vector of all color hex codes.
 #' @export
@@ -142,18 +142,20 @@ paletlong <- function() {
 #'
 #' Color picker, takes a vector of colornames and returns a hex codes.
 #' Defaults to AU blue.
-#' All color names need to be lower case
+#' Not case sensitive.
 #'
-#' @param x A vector of color names as specified on the AU colors webpage. Dark versions a names "dark [color]". Only takes lower case names.
+#' @param x A vector of color names as specified on the AU colors webpage. Dark versions a names "dark [color]".
 #' @return A vector of hex codes for the specified colors
 #' @export
-picker <- function(x = c("blue")) { #
-  list <- c()
+picker <- function(x = c("blue")) {
+  x <- tolower(x)
+  x <- gsub("gray", "grey", x)
+  colz <- c()
   for(i in x){
-    list[length(list)+1] <-  as.character(
+    colz[length(colz)+1] <-  as.character(
       subset(colrlong, name==paste0(i))[,2]
     )
   }
-  list
+  colz
 }
 

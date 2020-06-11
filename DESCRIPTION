@@ -1,7 +1,7 @@
 Package: aucolr
 Type: Package
 Title: Aarhus University Colors
-Version: 0.1.0
+Version: 0.1.1
 Author: Simon Fuglsang
 Maintainer: Simon Fuglsang <simon.fuglsang@ps.au.dk>
 Description: A package containing the official aarhus university colors. As a pallete and standalone colors.
