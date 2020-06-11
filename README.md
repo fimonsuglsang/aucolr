@@ -11,7 +11,7 @@ This side can also be used as a reference for the colors that you will get.
 The package contains 4 functions and 2 date frames. Everything is written in base-R to minimize dependencies.
 
 
-## functions
+## Functions
 
 The main function is *picker*. 
 This takes a character vector containing lower-case names of the AU colors, and returns a character vector of the corresponding  hex codes.
