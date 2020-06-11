@@ -2,7 +2,7 @@
 % Please edit documentation in R/aucolr.R
 \name{palet}
 \alias{palet}
-\title{Palet}
+\title{AU standard color palette}
 \usage{
 palet()
 }

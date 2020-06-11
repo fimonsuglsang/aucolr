@@ -3,7 +3,7 @@
 \docType{data}
 \name{colr}
 \alias{colr}
-\title{Colr}
+\title{Wide data frame of AU colors}
 \format{An object of class \code{data.frame} with 10 rows and 3 columns.}
 \usage{
 colr

@@ -4,7 +4,7 @@
 # Source of hex codes: https://medarbejdere.au.dk/en/administration/communication/guidelines/guidelinesforcolours/
 
 
-#' Colr
+#' Wide data frame of AU colors
 #'
 #' Data frame of AU colors in wide format. Light (standard) and dark in separate columns.
 #'
@@ -48,7 +48,7 @@ colr <- data.frame(
   )
 )
 
-#' Colrlong
+#' Long data frame of AU colors
 #'
 #' Data frame of AU colors in long format. Light (standard) and dark in same column.
 #'
@@ -101,7 +101,7 @@ colrlong <- data.frame(
 )
 
 
-#' Palet
+#' AU standard color palette
 #'
 #' Palette of all light colors, printet as character vector. Does not take any arguments.
 #'
@@ -113,32 +113,32 @@ palet <- function() {
   )
 }
 
-#' Paletdark
+#' AU dark color palette
 #'
 #' Palette of all dark colors, printet as character vector. Does not take any arguments.
 #'
 #' @return A vector of dark color hex codes.
 #' @export
-paletdark <- function() { #palette of all dark colors, printet as character vector
+paletdark <- function() {
   as.character(
     colr[[3]]
   )
 }
 
-#' Palet long
+#' AU color palette, standard followed by dark
 #'
 #' palette of all colors, printet as character vector. Does not take any arguments.
 #'
 #' @return A vector of all color hex codes.
 #' @export
-paletlong <- function() { #palette of all colors, printet as character vector
+paletlong <- function() {
   as.character(
     colrlong[[2]]
   )
 }
 
 
-#' Picker
+#' Color picker
 #'
 #' Color picker, takes a vector of colornames and returns a hex codes.
 #' Defaults to AU blue.

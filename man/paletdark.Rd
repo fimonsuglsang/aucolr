@@ -2,7 +2,7 @@
 % Please edit documentation in R/aucolr.R
 \name{paletdark}
 \alias{paletdark}
-\title{Paletdark}
+\title{AU dark color palette}
 \usage{
 paletdark()
 }

@@ -3,7 +3,7 @@
 \docType{data}
 \name{colrlong}
 \alias{colrlong}
-\title{Colrlong}
+\title{Long data frame of AU colors}
 \format{An object of class \code{data.frame} with 20 rows and 2 columns.}
 \usage{
 colrlong

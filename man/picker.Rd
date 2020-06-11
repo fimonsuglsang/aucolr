@@ -2,7 +2,7 @@
 % Please edit documentation in R/aucolr.R
 \name{picker}
 \alias{picker}
-\title{Picker}
+\title{Color picker}
 \usage{
 picker(x = c("blue"))
 }
