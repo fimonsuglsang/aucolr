@@ -15,7 +15,7 @@ The package contains 4 functions and 2 date frames. Everything is written in bas
 
 The main function is *picker*. 
 This takes a character vector containing lower-case names of the AU colors, and returns a character vector of the corresponding  hex codes.
-By default, this function supplies a single code for AU blue.
+By default, this function returns a single code for AU blue.
 
 
 The three palette funtions (palet, paletdark, paletlong) all return a character vector of the corresponding colors. 
