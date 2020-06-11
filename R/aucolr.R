@@ -101,7 +101,7 @@ colrlong <- data.frame(
 )
 
 
-#' Palette
+#' Palet
 #'
 #' Palette of all light colors, printet as character vector. Does not take any arguments.
 #'
@@ -113,7 +113,7 @@ palet <- function() {
   )
 }
 
-#' Palete dark
+#' Paletdark
 #'
 #' Palette of all dark colors, printet as character vector. Does not take any arguments.
 #'
@@ -125,7 +125,7 @@ paletdark <- function() { #palette of all dark colors, printet as character vect
   )
 }
 
-#' Palete long
+#' Palet long
 #'
 #' palette of all colors, printet as character vector. Does not take any arguments.
 #'

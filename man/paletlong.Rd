@@ -2,7 +2,7 @@
 % Please edit documentation in R/aucolr.R
 \name{paletlong}
 \alias{paletlong}
-\title{Palete long}
+\title{Palet long}
 \usage{
 paletlong()
 }
