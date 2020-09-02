@@ -140,16 +140,17 @@ paletlong <- function() {
 
 #' Color picker
 #'
-#' Color picker, takes a vector of colornames and returns a hex codes.
+#' Color picker, takes a vector of colornames and returns a vector of hex codes.
 #' Defaults to AU blue.
 #' Not case sensitive.
 #'
-#' @param x A vector of color names as specified on the AU colors webpage. Dark versions a names "dark [color]".
+#' @param x A vector of color names as specified on the AU colors webpage. Dark versions are named "dark [color]".
 #' @return A vector of hex codes for the specified colors
 #' @export
 picker <- function(x = c("blue")) {
   x <- tolower(x)
   x <- gsub("gray", "grey", x)
+  x <- gsub("dark ?", "dark ", x)
   colz <- c()
   for(i in x){
     colz[length(colz)+1] <-  as.character(

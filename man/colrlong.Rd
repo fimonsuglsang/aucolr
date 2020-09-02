@@ -4,7 +4,9 @@
 \name{colrlong}
 \alias{colrlong}
 \title{Long data frame of AU colors}
-\format{An object of class \code{data.frame} with 20 rows and 2 columns.}
+\format{
+An object of class \code{data.frame} with 20 rows and 2 columns.
+}
 \usage{
 colrlong
 }
