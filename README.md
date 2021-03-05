@@ -6,9 +6,9 @@ aucolr is not affiliated with the Aarhus University Communication Department, bu
 
 
 Source of hex codes: https://medarbejdere.au.dk/en/administration/communication/guidelines/guidelinesforcolours/.
-This side can also be used as a reference for the colors that you will get.
+This site can also be used as a reference for the colors.
 
-The package contains 4 functions and 2 date frames. Everything is written in base-R to minimize dependencies.
+The package contains 4 functions and 2 data frames. Everything is written in base-R to minimize dependencies.
 
 
 ## Functions
@@ -18,7 +18,7 @@ This takes a character vector containing names of the AU colors, and returns a c
 By default, this function returns a single code for AU blue.
 
 
-The three palette funtions (palet, paletdark, paletlong) all return a character vector of the corresponding colors. 
+The three palette functions (palet, paletdark, paletlong) all return a character vector of the corresponding colors. 
 The order of the colors correspond to the order on the web page, for a custom order use *picker*.
 
 ## Data frames
