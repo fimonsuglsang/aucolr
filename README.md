@@ -10,6 +10,8 @@ This site can also be used as a reference for the colors.
 
 The package contains 4 functions and 2 data frames. Everything is written in base-R to minimize dependencies.
 
+To install easily, run devtools::install_github("fimonsuglsang/aucolr")
+
 
 ## Functions
 
